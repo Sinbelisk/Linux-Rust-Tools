@@ -1,0 +1,30 @@
+# Rust/Cargo
+/target/
+Cargo.lock
+
+# Node/npm artifacts just in case
+node_modules/
+
+# VSCode workspace settings
+.vscode/
+
+# Backup and temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+
+# IDEs and editors
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# By default, ignore global cache or temp folders (security)
+.env
+.secret
