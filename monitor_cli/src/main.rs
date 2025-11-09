@@ -75,6 +75,8 @@ fn get_vcp_code(code: &str) -> Option<String> {
     match code {
         "brightness" => Some(10.to_string()),
         "contrast" => Some(12.to_string()),
+        "sharpness" => Some(87.to_string()),
+        "hz" => Some(String::from("AE")),
         _ => None,
     }
 }
